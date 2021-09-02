@@ -80,7 +80,7 @@ export default class projects extends Component {
 <div className="panel panel-default">
 <div className="panel-heading" role="tab" id="headingFive">
 <h4 className="panel-title">
-<a className="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Cuisine classNameifier
+<a className="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Cuisine classifier
 </a>
 </h4>
 </div>

@@ -21,17 +21,6 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Masters in Information Technology and Management <span>2021-present</span></h2>
-                        <p>I am a ITM student at UTD. I selected this major after Bachelor's degree in Computer Science to gain knowlege in the area of IT Management, project management, management principles, and to look at the technical things from a business perspective.</p>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-4">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
                         <h2>Graduate Teaching Assistant at UT Dallas <span>2021-present</span></h2>
                         <p>I am a teaching assistant at UT Dallas for courses IT for Business and System Analytics and Project Management. My job involves healping students with queries, grading their assignments, helping professor create and teach the curriculum.</p>
                       </div>
@@ -54,6 +43,17 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
+                        <h2>Masters in Information Technology and Management <span>2021-present</span></h2>
+                        <p>I am a ITM student at UTD. I selected this major after Bachelor's degree in Computer Science to gain knowlege in the area of IT Management, project management, management principles, and to look at the technical things from a business perspective.</p>
+                      </div>
+                    </div>
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-4">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
                         <h2>Software Engineer at TCS <span>2017-2020</span></h2>
                         <p>As a Software Engineer, I first got trained in Java, Oracle SQL, HTML, CSS, JS,  Oracle CRM/CX Siebel. After trained I have worked on multiple projects where I got to utilise these skills.</p>
                       </div>
@@ -66,7 +66,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Bachelor's in Computer Science from SGGSIE&T,India <span>2003-2015</span></h2>
-                        <p>I have completed my undegraduate degree in computer science with 3.5 GPA. During my time at university, I have developed interest in solving complex problems and writing efficient solution.</p> 
+                        <p>I have completed my undegraduate degree in computer science with 3.6 GPA. During my time at university, I have developed interest in solving complex problems and writing efficient solution.</p> 
                       </div>
                     </div>
                   </article>
