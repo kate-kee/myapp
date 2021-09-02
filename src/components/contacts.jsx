@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import emailjs from "emailjs-com"
-
 export default class Contacts extends Component {
   render() {
+    console.log(process.env.REACT_APP_KEY)
     function sendEmail(e) {
       e.preventDefault();
-      emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, 'kbtemplete', e.target, process.env.REACT_APP_USER_ID)
+      emailjs.sendForm( process.env.REACT_APP_SERVICE, 'kbtemplete', e.target, process.env.REACT_APP_KEY)
       .then((result) => {
-      console.log("Thank you!");
+        document.getElementById("one").reset();
+        console.log("Thank you!");
       }, (error) => {
       console.log(error.text);
       });
@@ -63,13 +64,13 @@ export default class Contacts extends Component {
 <div className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box " data-animate-effect="fadeInRight">
 
 <div className="card border-primary mb-3">
-<form onSubmit={sendEmail}>
+<form id="one" onSubmit={sendEmail}>
   
 <div className="form-group" >
 
 <label>
 Name:
-<input type="text" Name="Name" placeholder="Enter your name" className="form-control" />
+<input type="text" name="Name" placeholder="Enter your name" className="form-control" />
 </label>
 </div>
 <div className="form-group">
@@ -87,7 +88,7 @@ Message:
 <textarea name="Message" id="message" cols="30" rows="7" className="form-control" placeholder="Enter your Message"></textarea></label>
 </div>
 <div className="form-group">
-<input type="submit" className="btn btn-primary btn-send-message" value="Send Message"></input>
+<input type="submit" className="btn btn-primary btn-send-message"  value="Send Message!"></input>
 </div>
 </form>
 </div>

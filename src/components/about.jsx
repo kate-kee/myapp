@@ -58,7 +58,7 @@ export default class About extends Component {
                     <i className="icon-data" />
                 </span>
                 <div className="desc">
-                    <h3>Others</h3>
+                    <h3>Other Technologies</h3>
                     <p>I have work experience in databases and Scripting. I also have knowledge of Cloud technologies, big data, RESTful APIs and version control systems.</p>
                 </div>
                 </div>
