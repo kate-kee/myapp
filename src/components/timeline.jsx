@@ -65,7 +65,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Bachelor's in Computer Science from SGGSIE&T,India <span>2003-2015</span></h2>
+                        <h2>Bachelor's in Computer Science from SGGSIE&T,India <span>2013-2017</span></h2>
                         <p>I have completed my undegraduate degree in computer science with 3.6 GPA. During my time at university, I have developed interest in solving complex problems and writing efficient solution.</p> 
                       </div>
                     </div>
