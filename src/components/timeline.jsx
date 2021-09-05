@@ -22,7 +22,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Graduate Teaching Assistant at UT Dallas <span>2021-present</span></h2>
-                        <p>I am a teaching assistant at UT Dallas for courses 'IT for Business' and 'System Analytics and Project Management'. My job involves healping students with queries, grading their assignments, helping professor wih designing and teaching the syllabus.</p>
+                        <p>I am a teaching assistant at UT Dallas for courses 'IT for Business' and 'System Analytics and Project Management'. My job involves helping students with queries, grading their assignments, helping professor wih designing and teaching the syllabus.</p>
                       </div>
                     </div>
                   </article>
