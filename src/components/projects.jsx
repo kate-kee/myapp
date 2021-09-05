@@ -33,7 +33,7 @@ export default class projects extends Component {
 <div className="panel panel-default">
 <div className="panel-heading" role="tab" id="headingTwo">
 <h4 className="panel-title">
-<a className="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Speeach to text and Language Translator website
+<a className="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Speech to text and Language Translator website
 </a>
 </h4>
 </div>
@@ -88,7 +88,7 @@ export default class projects extends Component {
 <div className="panel-body">
 <ul>
 <li>Collected, observed, and cleaned the data using pandas and NumPy to refine and create training, test datasets from the given data.</li>
-<li>Plotted decision tree model and confusion matrix, decision tree to classNameify multiple cuisines from their ingredients.  </li>
+<li>Plotted decision tree model and confusion matrix, decision tree to classify multiple cuisines from their ingredients.  </li>
 </ul>
 </div>
 </div>

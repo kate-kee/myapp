@@ -48,7 +48,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Data Science</h3>
-                    <p>I have experience in analyzing, visualizing data and developing machine learning models. I also knowledge of multiple statistical methods to provide business solutions.</p>
+                    <p>I have experience in analyzing, visualizing data and developing machine learning models. I also have knowledge of multiple statistical methods to provide business solutions.</p>
                 </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Other Technologies</h3>
-                    <p>I have work experience in databases and Scripting. I also have knowledge of Cloud technologies, big data, RESTful APIs and version control systems.</p>
+                    <p>I have work experience in databases and Scripting. I also have knowledge of Cloud technologies, handling big data, RESTful APIs and version control systems.</p>
                 </div>
                 </div>
             </div>
