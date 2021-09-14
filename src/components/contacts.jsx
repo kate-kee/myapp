@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import emailjs from "emailjs-com"
 export default class Contacts extends Component {
   render() {
-    console.log(process.env.REACT_APP_KEY)
     function sendEmail(e) {
       e.preventDefault();
       emailjs.sendForm( process.env.REACT_APP_SERVICE, 'kbtemplete', e.target, process.env.REACT_APP_KEY)
@@ -20,11 +19,11 @@ export default class Contacts extends Component {
 <div className="row">
 <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box " data-animate-effect="fadeInLeft">
 <span className="heading-meta">Get in Touch</span>
-<div class="row">
-<div class="col-md-6 coloelib-heading colorlib-narrow-content">
+<div className="row">
+<div className="col-md-6 coloelib-heading colorlib-narrow-content">
 <h3>My Contact Details: </h3>
 </div>
-<div class="col-md-6 col-md-push-7  coloelib-heading colorlib-narrow-content">
+<div className="col-md-6 col-md-push-7  coloelib-heading colorlib-narrow-content">
 <h3>Message me: </h3>
 </div>
 </div>
